@@ -28,7 +28,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="relative z-10">
         <Navbar />
+        </header>
         {children}
       </body>
     </html>
